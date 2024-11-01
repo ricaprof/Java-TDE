@@ -21,7 +21,7 @@ for algoritmo in algoritmos:
     plt.figure(figsize=(10, 6))
     plt.title(f'Tempo de Execução para {algoritmo}')
     plt.xlabel('Tamanho do Array')
-    plt.ylabel('Tempo (ns)')
+    plt.ylabel('Tempo (s)')
 
     # Plotar os dados para cada semente
     for seed in data['Semente'].unique():
